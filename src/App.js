@@ -1,12 +1,11 @@
-import './App.css'
+// import './App.css';
+
+import ExpenseItem from './components/ExpenseItem';
 
 function App(){
     return (
-        <div className="app-container">
-            <h3>first component</h3>
-            <p>this is the p tag</p>
-         </div>
-        ) 
+        <ExpenseItem />
+        ); 
 }
 
 export default App;
