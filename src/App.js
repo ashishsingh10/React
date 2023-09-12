@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 
 import ExpenseItem from './components/ExpenseItem';
 
@@ -6,7 +6,7 @@ function App(){
     let expenses = [
         {
             id : 'e1',
-            title: "College Fee",
+            title: "Course Fee",
             amount: 250,
             date : new Date(2023, 10, 22)
         },
