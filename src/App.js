@@ -1,9 +1,11 @@
+import React from "react";
+
 import './App.css';
-import Expense from './components/Expense';
+import Expense from './components/Expenses/Expense';
 
 
 
-function App(){
+const App = () => {
     let expenses = [
         {
             id : 'e1',
