@@ -16,8 +16,7 @@ const ExpenseItem = (stuff) => {
         <Card className="expense-item">
             <ExpenseDate date={stuff.date}/>  
             <h2>{title}</h2>         
-            <div className="expense-item__description">
-                
+            <div className="expense-item__description">  
             <div className="expense-item__price">${stuff.amount}</div>
             </div>
             <input type="text" value={newTitle} onChange={changeHandler}/>
